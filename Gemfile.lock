@@ -1,7 +1,7 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
-    minitest (5.4.3)
     power_assert (0.2.2)
     rspec (3.3.0)
       rspec-core (~> 3.3.0)
@@ -20,10 +20,10 @@ GEM
       power_assert
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
-  minitest
   rspec
   test-unit
 
