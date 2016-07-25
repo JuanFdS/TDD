@@ -43,7 +43,7 @@ class Catalog
     @isbns = isbns
   end
 
-  def add_isbn(isbn, unit_price)
+  def add_isbn(isbn, unit_pricRuntimeErrore)
     @isbns.merge!({isbn => unit_price})
   end
 
